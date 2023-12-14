@@ -20,6 +20,14 @@ return {
       return opts
     end,
   },
+  {
+    "olimorris/onedarkpro.nvim",
+    opts = {
+      options = {
+        highlight_inactive_windows = true,
+      },
+    },
+  }
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
